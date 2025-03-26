@@ -1,3 +1,6 @@
+> This script automates SMILES retrieval from PubChem and generates standardized molecular embeddings using RDKit2D descriptors for individual drugs or drug-dose combinations.
+
+
 ### `canonicalize_smiles`
 
 - Standardizes SMILES strings by parsing them into RDKit molecules and re-encoding them with `Chem.MolToSmiles` to make sure chemically identical molecules (e.g., sertraline variants) yield the same embeddings.
